@@ -1,0 +1,78 @@
+body{
+    margin: 0 0 0 0;
+}
+p{
+    margin-top: 16px;
+    font-family: "Microsoft YaHei UI","Lucida Grande","serif","monospace";
+    font-size: 1vw;
+    color: #67696a;
+}
+h3{
+    font-family: "Arial","monospace";
+    font-size: 1.5vw;
+    margin-bottom: 5px;
+    color: #336998;
+    font-weight: bold;
+}
+h4{
+    font-family: "Arial","monospace";
+    font-size: 1vw;
+}
+.container{
+    width: 100%;
+}
+header{
+    width: 100%;
+    background-color: #00aaf1;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+header .title{
+    font-weight: bold;
+    font-family: "Microsoft YaHei UI","Lucida Grande","serif","monospace";
+    color: #f8fcfe;
+    font-size: 3vw;
+}
+header .t2{
+    font-weight: bold;
+    font-family: "Microsoft YaHei UI","Lucida Grande","serif","monospace";
+    color: #f8fcfe;
+    font-size: 1.4vw;
+    margin-left: 200px;
+}
+.RESEARCH img{
+    max-width: 100%;
+}
+.PROBLEMS td{
+    color: #ec2807;
+}
+.PROBLEMS img{
+    max-width: 100%;
+}
+.CORENEED .u{
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 8px 0 8px 0;
+    margin-top: 20px;
+    background-color: #cfeaf2;
+    /*border: 2px solid #cacaca;*/
+}
+.CORENEED ul{
+    margin-left: 24px;
+}
+.CORENEED li{
+    font-family: "Microsoft YaHei UI","serif";
+    font-weight: bold;
+    font-size: 1vw;
+    color: #353636;
+    margin: 6px 0 6px 0;
+}
+.MAINIDEA img{
+    max-width: 100%;
+}
+.MAINIDEA td{
+    font-family: "Microsoft YaHei UI","serif";
+    font-weight: bold;
+    color: #555555;
+    font-size: 1vw;
+}

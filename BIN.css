@@ -1,0 +1,79 @@
+body{
+    margin: 0 0 0 0;
+    font-family: "Microsoft YaHei UI","Lucida Grande","serif","monospace";
+}
+p{
+    margin-top: 16px;
+    font-family: "Microsoft YaHei UI","Lucida Grande","serif","monospace";
+    font-size: 1vw;
+    color: #67696a;
+}
+h3{
+    font-family: "Arial","monospace";
+    font-size: 1.3vw;
+    margin-bottom: 5px;
+    color: #3f3e3e;
+    font-weight: bold;
+}
+h4{
+    font-family: "Arial","monospace";
+    font-size: 1vw;
+}
+.container{
+    width: 100%;
+}
+header{
+    width: 100%;
+    background-color: #d2e1c6;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+header .title{
+    font-weight: bold;
+
+    color: #1c4e0e;
+    font-size: 3vw;
+}
+header .t2{
+    font-weight: bold;
+    color: #659b57;
+    font-size: 1.4vw;
+    margin-left: 200px;
+}
+.RESEARCHANDANALYSIS{
+    margin-top: 50px;
+    text-align: center;
+}
+.RESEARCHANDANALYSIS td{
+    /*width: 400px;*/
+    font-size: 1.2vw;
+    color: #414445;
+}
+.RESEARCHANDANALYSIS img{
+    max-width: 100%;
+    /*max-width: 400px;*/
+}
+.CONDITIONOFGARBAG p{
+    font-size: 0.9vw;
+}
+.CONDITIONOFGARBAG td{
+    width: 33%;
+    vertical-align: top;
+}
+.EXTRACTMAINIDEAS img{
+    max-width: 100%;
+}
+.INITIALPROCESSDESIGN td{
+    text-align: center;
+    font-size: 1vw;
+    color: #474a4b;
+}
+.INITIALPROCESSDESIGN img{
+    max-width: 100%;
+}
+.LOWFIDELITYPROTOTYPE td{
+    vertical-align: top;
+}
+.LOWFIDELITYPROTOTYPE img{
+    max-width: 100%;
+}

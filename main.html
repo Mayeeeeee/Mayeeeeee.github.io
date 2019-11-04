@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MEITING LIU</title>
+    <script src="jquery.js"></script>
+    <script type="application/javascript">
+        $(document).ready(function () {
+
+            $("#gux").click(function () {
+                $('html,body').animate({scrollTop:$('#main').offset().top}, 600);
+            });
+            $("#gabout").click(function () {
+                $('html,body').animate({scrollTop:$('#about').offset().top}, 600);
+            });
+
+            var screen_height = $(window).height();
+            var screen_width = $(window).width()-17;
+            var main = $("#main");
+            var about = $("#about");
+            main.css("width",screen_width);
+            main.css("height",screen_height);
+            about.css("width",screen_width);
+            about.css("height",screen_height);
+            $(".page").css("height",screen_height-250);
+
+            var mask = $(".mask");
+            var content = $(".content");
+            var td = $("#td");
+            mask.css("width",td.width());
+            mask.css("height",td.height());
+            content.css("width",td.width());
+            content.css("height",td.height());
+
+
+            var lomask = $("#lo_mask");
+            var loli = $("#lo");
+            loli.hover(function () {
+                lomask.css("display","block")
+            },function () {
+            });
+            lomask.hover(function () {
+            },function () {
+                lomask.css("display","none")
+            });
+
+            var binmask = $("#bin_mask");
+            var bin = $("#bin");
+            bin.hover(function () {
+                binmask.css("display","block")
+            },function () {
+            });
+            binmask.hover(function () {
+            },function () {
+                binmask.css("display","none")
+            });
+
+            var um_mask = $("#um_mask");
+            var um = $("#um");
+            um.hover(function () {
+                um_mask.css("display","block")
+            },function () {
+            });
+            um_mask.hover(function () {
+            },function () {
+                um_mask.css("display","none")
+            });
+
+            var gra_mask = $("#gra_mask");
+            var gra = $("#gra");
+            gra.hover(function () {
+                gra_mask.css("display","block")
+            },function () {
+            });
+            gra_mask.hover(function () {
+            },function () {
+                gra_mask.css("display","none")
+            });
+
+            var pa_mask = $("#pa_mask");
+            var pa = $("#pa");
+            pa.hover(function () {
+                pa_mask.css("display","block")
+            },function () {
+            });
+            pa_mask.hover(function () {
+            },function () {
+                pa_mask.css("display","none")
+            });
+
+            var ph_mask = $("#ph_mask");
+            var ph = $("#ph");
+            ph.hover(function () {
+                ph_mask.css("display","block")
+            },function () {
+            });
+            ph_mask.hover(function () {
+            },function () {
+                ph_mask.css("display","none")
+            });
+
+        });
+    </script>
+    <style type="text/css">
+        body{
+            margin: 0 0;
+        }
+        p{
+            font-family: "sans-serif";
+            -webkit-margin-before: 0;
+            -webkit-margin-after: 0;
+        }
+        header{
+            top: 0;
+            left: 0;
+            position: absolute;
+            height: 100px;
+            width: 100%;
+        }
+        .guide{
+            line-height: 100px;
+            float: right;
+        }
+        .guide td{
+            font-family: "Lucida Grande","monospace";
+            padding-right: 22px;
+            font-size: 1.2vw;
+            text-align: center;
+        }
+        .guide td:hover{
+            color: #00aaf1;
+            cursor: pointer;
+        }
+        td{
+            position: relative;
+        }
+        .content{
+            top:0;
+            position: absolute;
+            min-width: 100px;
+            width: 100%;
+            height: 100%;
+            background-color: white;
+        }
+        .mask{
+            top:0;display:none;position: absolute;opacity: 0.9;z-index: 1001;
+        }
+        .mask p{
+            color: white;position: relative;top: 50%;transform: translateY(-50%);font-size: 1.4vw;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main" id="main">
+            <div style="text-align: center">
+                <span style="line-height: 200px" >LOGO</span>
+            </div>
+            <div class="page" style="width: 70%;margin: 0 auto;">
+                <table cellpadding="20px" style="width: 100%;height: 100%;text-align: center">
+
+                    <tr>
+                        <td >
+                            <a href="Lolitalk.html">
+                            <div id="lo" class="content">
+                                <img id="td" src="res/lolitalk.png" style="max-width: 100%">
+                            </div>
+                            <div id="lo_mask" class="mask" style="background-color: #d61818;">
+                                <p>LOLITALK</p>
+                            </div>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="BIN.html">
+                            <div id="bin" class="content" >
+                                <img src="res/bin.png" style="max-width: 100%">
+                            </div>
+                            <div id="bin_mask" class="mask" style="background-color: #56d6a2;">
+                                <p>BIN</p>
+                            </div>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="SAFERELLA.html">
+                            <div id="um" class="content">
+                                <img src="res/umbrella.png" style="max-width: 100%">
+                            </div>
+                            <div id="um_mask" class="mask" style="background-color: #25a7d6;">
+                                <p>SAFERELLA</p>
+                            </div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="graphicDesign.html">
+                            <div id="gra" class="content">
+                                <img src="res/GraphicDesign.png" style="max-width: 100%">
+                            </div>
+                            <div id="gra_mask" class="mask" style="background-color: #85e5f2;">
+                                <p>GRAPHICDESIGN</p>
+                            </div>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="Paintings.html">
+                            <div id="pa" class="content">
+                                <img src="res/Paintings.png" style="max-width: 100%">
+                            </div>
+                            <div id="pa_mask" class="mask" style="background-color: #d65c48;">
+                                <p>PAINTINGS</p>
+                            </div>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="Photography.html">
+                            <div id="ph" class="content">
+                                <img src="res/Photography.png" style="max-width: 100%">
+                            </div>
+                            <div id="ph_mask" class="mask" style="background-color: #555555;">
+                                <p>PHOTOGRAPHY</p>
+                            </div>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="about" id="about" style="display:flex;
+    display: -webkit-flex;
+    align-items:center;">
+            <div class="UX" id="abouts" style="width: 80%;margin: 0 auto" >
+                <div  class="UX_main" style="text-align: left;width: 80%;">
+                    <p style="font-size: 2vw">About</p>
+                </div>
+                <div class="UX_main" style="margin-top: 100px">
+                    <div style="margin: 0 auto;width: 100%">
+                        <table>
+                            <tr>
+                                <td rowspan="2" style="width: 50%">
+                                    <p style="font-size: 1.1vw">
+                                        Growing up as I did in an artistic family, I absorbed many years of design thinking.
+                                        In the beginning, I cared most about aesthetics. Is it beautiful? Is it visually appealing?
+                                        Over time, I developed a more sophisticated and holistic way of interpreting and evaluating the design of things.
+                                        I like to take an object and mull over it. How might I change the design of things to make them more user-friendly,
+                                        efficient, graceful? I like to take complex things and break them down into their component parts and processes.
+                                        <br/><br/>As a designer, I am not just concerned with the finished product; some of the most interesting design decisions concern intermediate processes that the end user never sees. Given my lifelong inclination towards design, it is no surprise that for my undergraduate major I chose industrial design. In a word, my life’s goal is to prove myself as an outstanding designer and help build a better world for the generations that come after me.
+                                    </p>
+                                </td>
+                                <td style="text-align: center"><a href="res/download/portfolio.pdf"><p style="font-size: 1.2vw">portfolio PDF download</p></a></td>
+                            </tr>
+                            <tr>
+
+                                <td style="text-align: center"><a href="res/download/Resume_meiting.docx"><p style="font-size: 1.2vw">resume download</p></a></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="h">
+        <table class="guide">
+            <tr>
+                <td id="gwork">WORKS</td>
+                <td id="gabout">ABOUT</td>
+            </tr>
+        </table>
+    </header>
+</body>
+</html>

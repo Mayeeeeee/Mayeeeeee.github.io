@@ -1,0 +1,94 @@
+body{
+    margin: 0 0 0 0;
+    font-family: "Microsoft YaHei UI","Lucida Grande","serif","monospace";
+}
+p{
+    margin-top: 16px;
+    font-size: 0.8vw;
+    color: #67696a;
+}
+
+h3{
+    font-family: "Arial","monospace";
+    font-size: 1.3vw;
+    margin-bottom: 5px;
+    color: #3f3e3e;
+    font-weight: bold;
+}
+.container{
+    width: 100%;
+}
+header{
+    width: 100%;
+    background-color: #ffeded;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+header .title{
+    font-weight: bold;
+    color: #cb1e00;
+    font-size: 3vw;
+}
+header .t2{
+    font-weight: bold;
+    color: #eca49e;
+    font-size: 1.4vw;
+    margin-left: 200px;
+}
+table{
+    margin-top: 20px;
+}
+.RESEARCH td{
+    font-size: 1.1vw;
+    color: #3f3e3e;
+}
+
+.INTERVIEWRESULTS th{
+    color: #2f5d73;
+    font-size: 1vw;
+    text-align: left;
+    width: 33%;
+}
+.INTERVIEWRESULTS td{
+    font-size: 1vw;
+    text-align: left;
+    vertical-align: top;
+    width: 33%;
+ }
+.CORENEED .u{
+    padding: 16px 0 16px 0;
+    margin-top: 20px;
+    background-color: #fb9c9c;
+    /*border: 2px solid #cacaca;*/
+}
+.CORENEED ul{
+    margin-left: 24px;
+}
+.CORENEED li{
+    color: white;
+    font-size: 1vw;
+    margin: 24px 0 24px 0;
+}
+.LOWFIDELITYPROTOTYPE{
+    margin-top: 70px;
+
+}
+.LOWFIDELITYPROTOTYPE td{
+    text-align: center;
+}
+.LOWFIDELITYPROTOTYPE .t{
+    font-size: 1.3vw;
+    color: #3f3e3e;
+    font-weight: 500;
+}
+.red{
+    background-color: #d90909;
+    /*border: 2px solid #a7a7a7;*/
+    display: inline-block;
+    padding-right: 50px;
+}
+.red li{
+    color: white;
+    text-align: left;
+    font-size: 1vw;
+}
